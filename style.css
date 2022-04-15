@@ -1,0 +1,77 @@
+html, body {
+    margin: 0;
+    height: 100%;
+}
+body {
+    background-image: url("lockScreen.jpg");
+    margin: 0;
+    padding: 0;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: white;
+    user-select: none;
+    background-color: black;
+}
+body * {
+    font-family: 'Product Sans';
+}
+.center {
+    position: absolute;
+    top: 43%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    text-align: center;
+    width: 100%;
+}
+h1 {
+    font-size: 7rem;
+    margin: 0;
+}
+h2 {
+    margin: 0;
+    font-size: 3rem;
+}
+input {
+    background-color: rgb(0,0,0,0);
+    padding: 0.7% 1%;
+    width: 40%;
+    font-size: 2rem;
+    color: white;
+    border: none;
+    border-bottom: 2px solid white;
+    text-align: center;
+}
+input:focus {
+    outline: none;
+}
+::placeholder {
+    color: white;
+    opacity: 60%;
+}
+a {
+    float: right;
+    color: white;
+    margin: 1%;
+    text-decoration: none;
+    font-size: 1.5rem;
+}
+a:hover {
+    text-decoration: underline;
+}
+#yt, .yt {
+    display: inline;
+}
+.yt {
+    margin: 1%;
+}
+.yt input {
+    width: 15%;
+    font-size: 1.5rem;
+}
+@font-face {
+    font-family: 'Product Sans';
+    font-style: normal;
+    font-weight: 400;
+    src: local('Open Sans'), local('OpenSans'), url(https://fonts.gstatic.com/s/productsans/v5/HYvgU2fE2nRJvZ5JFAumwegdm0LZdjqr5-oayXSOefg.woff2) format('woff2');
+}
